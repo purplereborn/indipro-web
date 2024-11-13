@@ -3,12 +3,13 @@ export default function page() {
     <>
       <div className="px-4 lg:px-[30%] bg-center bg-cover bg-[url(../public/image/IMG_home.jpeg)] h-screen flex flex-col items-center justify-center space-y-4  p-12">
         <div className="text-3xl text-white font-semibold text-shad text-center">
-          Property Agency no 1 di Indonesia
+          Agency Property terbaik di Indonesia
         </div>
         <div className="w-full flex flex-row space-x-2 bg-white bg-opacity-30 p-4 rounded-md">
           <div className="flex-1 flex bg-white px-4 py-3 rounded-md border-gray-600 overflow-hidden font-[sans-serif]">
             <input
-              type="email"
+              tabIndex={-1}
+              type="text"
               placeholder="Cari Lokasi..."
               className="w-full outline-none bg-transparent text-gray-600 text-sm"
             />
