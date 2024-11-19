@@ -99,14 +99,7 @@ function NavbarDrawer() {
                   Beranda
                 </div>
               </li>
-              <li>
-                <div
-                  className="cursor-pointer hover:text-blue-600"
-                  onClick={onClickAbout}
-                >
-                  Tentang Kami
-                </div>
-              </li>
+
               <li>
                 <div
                   className="cursor-pointer hover:text-blue-600"
@@ -121,6 +114,19 @@ function NavbarDrawer() {
                   onClick={onClickService}
                 >
                   Jasa
+                </div>
+              </li>
+              <li>
+                <div
+                  className="cursor-pointer hover:text-blue-600"
+                  onClick={onClickAbout}
+                >
+                  Tentang Kami
+                </div>
+              </li>
+              <li>
+                <div className="cursor-pointer hover:text-blue-600">
+                  Lainnya
                 </div>
               </li>
             </ul>
