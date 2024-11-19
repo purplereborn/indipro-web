@@ -14,7 +14,7 @@ function Cities() {
           return (
             <div
               key={index}
-              className="w-[180px] h-[180px] bg-no-repeat bg-cover rounded-lg overflow-hidden"
+              className="w-[40vw] lg:w-[180px] h-[180px] bg-no-repeat bg-cover rounded-lg overflow-hidden"
               style={{
                 backgroundImage: `url(${item?.img})`,
               }}

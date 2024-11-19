@@ -4,7 +4,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer className="footer bg-base-200 text-white px-6 py-10 lg:px-12">
+      <footer className="footer bg-slate-800 text-white px-6 py-10 lg:px-12">
         <aside className="flex flex-col space-y-2">
           <div className="flex flex-row items-center space-x-2">
             <Image

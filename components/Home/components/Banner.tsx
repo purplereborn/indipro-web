@@ -38,7 +38,7 @@ function Banner() {
           </div>
           <button
             type="button"
-            className="text-white font-medium bg-blue-600 hover:bg-blue-700 rounded-md px-6 py-2.5"
+            className="text-white font-medium bg-blue-600 hover:bg-blue-700 rounded-md px-3 py-2.5"
           >
             Cari Properti
           </button>
