@@ -55,6 +55,12 @@ const citiesData = [
     img: "/image/cities/IMG_Cities_KBB.jpeg",
   },
   {
+    key: "cimahi",
+    title: "Kota Cimahi",
+    count: 0,
+    img: "/image/cities/IMG_Cities_Cimahi.jpeg",
+  },
+  {
     key: "bekasi",
     title: "Bekasi",
     count: 0,
