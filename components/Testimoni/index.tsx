@@ -2,11 +2,11 @@
 import React, { useRef, useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
+import Title from "../Title";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
-import Title from "../Title";
+import { type Swiper as SwiperRef } from "swiper";
 
 // Dummy Data
 interface TestimoniData {
@@ -40,7 +40,7 @@ const dataTestimoni: TestimoniData[] = [
 const Testimoni: React.FC = () => {
   const prevRef = useRef<HTMLButtonElement | null>(null);
   const nextRef = useRef<HTMLButtonElement | null>(null);
-  const swiperInstanceRef = useRef<any>(null); // Simpan referensi instance Swiper
+  const swiperInstanceRef = useRef<SwiperRef | null>(null); // Simpan referensi instance Swiper
 
   useEffect(() => {
     if (
@@ -74,7 +74,7 @@ const Testimoni: React.FC = () => {
           prevEl: null, // Diatur nanti melalui useEffect
           nextEl: null, // Diatur nanti melalui useEffect
         }}
-        onSwiper={(swiper) => {
+        onSwiper={(swiper: SwiperRef) => {
           swiperInstanceRef.current = swiper; // Simpan instance swiper
         }}
         modules={[Navigation, Autoplay]}
