@@ -90,7 +90,7 @@ const Testimoni: React.FC = () => {
               />
               <div className="flex-1 flex flex-col space-y-2">
                 <div className="text-white lg:text-lg font-semibold italic">
-                  " {item.desc} "
+                  &quot; {item.desc} &quot;
                 </div>
                 <div className="text-white">
                   <p className="font-bold">{item.name}</p>
