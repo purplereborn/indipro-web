@@ -4,7 +4,7 @@ import React from "react";
 
 function Popular() {
   return (
-    <div className="bg-white  py-6">
+    <div className="bg-white py-6">
       <div className="px-4 lg:px-12 ">
         <Title
           title="Properti Populer"

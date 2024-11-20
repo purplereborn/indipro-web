@@ -4,17 +4,19 @@ import React from "react";
 function Cities() {
   // `url(${bannerImage})`;
   return (
-    <div className=" bg-white px-4 py-6 lg:p-12">
-      <Title
-        title="Properti berdasarkan kota"
-        desc="Temukan lokasi properti terbaikmu di berbagai kota"
-      />
-      <div className="flex flex-wrap gap-4">
+    <div className="bg-white pt-12 pb-6">
+      <div className="px-4 lg:px-12 ">
+        <Title
+          title="Properti berdasarkan kota"
+          desc="Temukan lokasi properti terbaikmu di berbagai kota"
+        />
+      </div>
+      <div className="flex overflow-x-auto w-full space-x-4 px-4 lg:px-12 ">
         {citiesData?.map((item, index) => {
           return (
             <div
               key={index}
-              className="w-[40vw] lg:w-[180px] h-[180px] bg-no-repeat bg-cover rounded-lg overflow-hidden"
+              className="flex-none w-[40vw] lg:w-[180px] h-[180px] bg-no-repeat bg-cover rounded-lg overflow-hidden"
               style={{
                 backgroundImage: `url(${item?.img})`,
               }}

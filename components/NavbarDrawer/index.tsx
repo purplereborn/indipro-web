@@ -46,7 +46,7 @@ function NavbarDrawer() {
   };
 
   return (
-    <div className="drawer fixed text-black">
+    <div className="drawer z-20 fixed text-black">
       <input
         id="my-drawer-3"
         type="checkbox"
