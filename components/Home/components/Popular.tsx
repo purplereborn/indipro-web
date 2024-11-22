@@ -13,12 +13,14 @@ function Popular() {
       </div>
 
       <div className="flex overflow-x-auto w-full space-x-4 pb-4 px-4 lg:px-12 ">
-        <CardProperty />
-        <CardProperty />
-        <CardProperty />
-        <CardProperty />
-        <CardProperty />
-        <CardProperty />
+        <CardProperty className="flex-none w-[300px]" />
+        <CardProperty className="flex-none w-[300px]" />
+        <CardProperty className="flex-none w-[300px]" />
+        <CardProperty className="flex-none w-[300px]" />
+        <CardProperty className="flex-none w-[300px]" />
+        <CardProperty className="flex-none w-[300px]" />
+        <CardProperty className="flex-none w-[300px]" />
+        <CardProperty className="flex-none w-[300px]" />
       </div>
     </div>
   );

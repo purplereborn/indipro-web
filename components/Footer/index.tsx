@@ -55,8 +55,7 @@ function Footer() {
 
         <nav>
           <h6 className="font-semibold text-neutral-400">LIST PROPERTI</h6>
-          <a className="link link-hover">Rumah Baru</a>
-          <a className="link link-hover">Rumah Second</a>
+          <a className="link link-hover">Rumah</a>
           <a className="link link-hover">Apartement</a>
           <a className="link link-hover">Villa</a>
           <a className="link link-hover">Tanah Kavling</a>
